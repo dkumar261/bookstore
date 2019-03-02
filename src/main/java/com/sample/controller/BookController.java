@@ -12,6 +12,7 @@ public class BookController {
 	public Book getBook() {
 		Book book = new Book();
 		book.setName("Java");
+		book.setWriter("Martin");
 		book.setPrice(100);
 		return book;
 	}
