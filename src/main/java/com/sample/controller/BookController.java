@@ -19,7 +19,7 @@ public class BookController {
 	}
 	@PostMapping(value="/save")
 	public void save() {
-		Book book = new Book("","")
+		Book book = new Book();
 		
 		book.setName("Java");
 		book.setWriter("Martin");

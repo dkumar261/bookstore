@@ -1,7 +1,11 @@
 package com.sample.model;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class Book {
 
+	
 	private String name;
 	private Integer price;
 	private String writer;
